@@ -8,7 +8,7 @@ namespace WpfApplication1
 {
    public class Situatie
     {
-       private Student _student;
+      
         private Dictionary<Disciplina,Nota> _note;
         public Dictionary<Disciplina, Nota> Note
             {

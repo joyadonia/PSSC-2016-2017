@@ -15,13 +15,14 @@ namespace WpfApplication1
             get { return _activitate; }
             set { _activitate = value; }
         }
-        private List<string> _evaluare;
+        private List<float> _evaluare;
 
-        public List<string> Evaluare
+        public List<float> Evaluare
         {
             get { return _evaluare; }
             set { _evaluare = value; }
         }
+
 
     }
 }

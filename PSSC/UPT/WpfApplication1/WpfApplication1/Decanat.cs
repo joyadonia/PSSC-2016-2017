@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WpfApplication1
 {
-    class Decanat
+    public class Decanat
     {
         private List<string> _listaDisciplineFacultate;
         private Dictionary<Facultate,List<string>> _facultati=new Dictionary<Facultate,List<string>>();

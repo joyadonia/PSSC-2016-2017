@@ -8,6 +8,14 @@ namespace WpfApplication1
 {
    public  class Student
     {
+        private Situatie _situatie;
+
+        public Situatie Situatie
+        {
+            get { return _situatie; }
+            set { _situatie = value; }
+        }
+
         private string  _nume;
          
         
