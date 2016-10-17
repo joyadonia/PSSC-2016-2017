@@ -57,6 +57,8 @@
     </ApplicationDefinition>
     <Compile Include="Calcul.cs" />
     <Compile Include="Global.cs" />
+    <Compile Include="iLaborator.cs" />
+    <Compile Include="Laborator.cs" />
     <Compile Include="Nota.cs" />
     <Compile Include="Profesor.cs" />
     <Compile Include="Situatie.cs" />

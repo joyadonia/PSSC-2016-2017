@@ -8,7 +8,7 @@ namespace WpfApplication1
 {
     public class Calcul
     {
-       public  float calculMedieTotala(Student student)
+       public static float calculMedieTotala(Student student)
         {
             float media=0;
            
@@ -23,12 +23,12 @@ namespace WpfApplication1
             }
             return media/numarDiscipline;
         }
-      public  float calculNotaFinala(Student student,float procent,Disciplina disciplina)
+      public static float calculNotaFinala(Student student,float procent,Disciplina disciplina)
         {
              
             Nota nota2;
             student.Situatie.Note.TryGetValue(disciplina, out nota2);
-          return  ((nota2.Activitate * procent) + (nota2.Evaluare.ElementAt(0) + nota2.Evaluare.ElementAt(1))) / 2;
+            return  ((nota2.Activitate * procent) + (nota2.Evaluare.ElementAt(0) + nota2.Evaluare.ElementAt(1))) / 2;
             
         }
     }

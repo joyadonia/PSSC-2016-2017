@@ -7,8 +7,21 @@ using System.Threading.Tasks;
 namespace WpfApplication1
 {
     public class Profesor
-    {  
+    {
+        private Laborator _laborator;
 
+        public Laborator Laborator
+        {
+            get { return _laborator; }
+            set { _laborator = value; }
+        }
+
+        private List<string> _studenti;
+        public List<string> Studenti
+        {
+            get { return _studenti; }
+            set { _studenti = value; }
+        }
         
         private string _prenume;
 
