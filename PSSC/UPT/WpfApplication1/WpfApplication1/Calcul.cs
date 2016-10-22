@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 namespace WpfApplication1
 {
     public class Calcul
-    {
-       public static float calculMedieTotala(Student student)
+    { 
+       public   static  float calculMedieTotala(Student student)
         {
             float media=0;
            
             Nota nota2;
-            List<Disciplina> discipline = student.Facultate.Discipline;
+            var discipline = student.Facultate.Discipline.SelectMany(x=>x.Value);
             int numarDiscipline=discipline.Count();
             foreach (Disciplina d in discipline)
             {

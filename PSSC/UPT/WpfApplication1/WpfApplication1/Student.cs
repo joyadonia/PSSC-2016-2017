@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static WpfApplication1.Decanat;
 
 namespace WpfApplication1
 {
@@ -21,7 +22,11 @@ namespace WpfApplication1
         
         private Facultate _facultate;
         private string _an;
-
+        public string An
+        {
+            get { return _an; }
+            set { _an = value; }
+        }
         private string _prenume;
 
         public string Prenume  

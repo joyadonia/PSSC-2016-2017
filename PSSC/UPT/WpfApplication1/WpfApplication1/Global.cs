@@ -9,6 +9,10 @@ namespace WpfApplication1
     class Global
     {
       public  Decanat decanat = Decanat.GetInstance();
+      public Global()
+        {  
+            decanat.
+         }
         
     }
 }

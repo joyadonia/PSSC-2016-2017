@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace WpfApplication1
 {
-    public class Profesor
+    public class Profesor  
     {
+        public Calcul _calcul;
         private Laborator _laborator;
 
         public Laborator Laborator
@@ -22,7 +23,7 @@ namespace WpfApplication1
             get { return _studenti; }
             set { _studenti = value; }
         }
-        
+
         private string _prenume;
 
         public string Prenume
@@ -45,6 +46,5 @@ namespace WpfApplication1
             set { _procent = value; }
         }
 
-        
     }
 }
