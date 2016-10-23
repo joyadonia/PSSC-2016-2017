@@ -18,9 +18,17 @@ namespace WpfApplication1
         private List<float> _evaluare;
 
         public List<float> Evaluare
-        {
+        {   
             get { return _evaluare; }
             set { _evaluare = value; }
+        }
+
+        private List<float> _evaluare2;
+
+        public List<float>  Evaluare2
+        {
+            get { return _evaluare2; }
+            set { _evaluare2 = value; }
         }
 
 

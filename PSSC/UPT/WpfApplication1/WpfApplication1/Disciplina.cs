@@ -38,6 +38,7 @@ namespace WpfApplication1
             set { _tip = value; }
         }
 
-
+    
+        
     }
 }

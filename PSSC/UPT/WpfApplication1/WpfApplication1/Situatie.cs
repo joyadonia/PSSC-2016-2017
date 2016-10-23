@@ -8,12 +8,13 @@ namespace WpfApplication1
 {
    public class Situatie
     {
+        
       
         private Dictionary<Disciplina,Nota> _note;
         public Dictionary<Disciplina, Nota> Note
             {
             get { return _note; }
-            set { _note = value; }
+            private  set { _note = value; }
             }
     }
 }

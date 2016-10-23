@@ -11,7 +11,7 @@ namespace WpfApplication1
       public  Decanat decanat = Decanat.GetInstance();
       public Global()
         {  
-            decanat.
+          //  decanat.
          }
         
     }

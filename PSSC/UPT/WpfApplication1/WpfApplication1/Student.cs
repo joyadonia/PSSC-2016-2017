@@ -9,6 +9,22 @@ namespace WpfApplication1
 {
    public  class Student
     {
+
+        private List<Disciplina> _disc;
+
+        public List<Disciplina> Disc
+        {
+            get { return _disc; }
+            set { _disc = value; }
+        }
+
+
+        public Dictionary<int, List<Disciplina>> Discipline
+        {
+            get { return _discipline; }
+            set { _discipline = value; }
+        }
+
         private Situatie _situatie;
 
         public Situatie Situatie
@@ -18,8 +34,9 @@ namespace WpfApplication1
         }
 
         private string  _nume;
-         
-        
+        private Dictionary<int, List<Disciplina>> _discipline;
+
+
         private Facultate _facultate;
         private string _an;
         public string An
@@ -48,7 +65,7 @@ namespace WpfApplication1
             get { return _data; }
             set { _data = value; }
         }
-       public Facultate Facultate
+        private Facultate Facultate
         {
             get { return _facultate; }
             set { _facultate = value; }

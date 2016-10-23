@@ -36,7 +36,7 @@ namespace WpfApplication1
         private Decanat()
         {
             Facultate facultate = new Facultate("Automatica si Calculatoare");
-            facultate.Discipline.Add(1, new List<string>() { "Algebra", "Programare C", "Tehnici de programare", "Logica digitala" });
+        //    facultate.Discipline.Add(1, new List<string>() { "Algebra", "Programare C", "Tehnici de programare", "Logica digitala" });
 
 
         }
